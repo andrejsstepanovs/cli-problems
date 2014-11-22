@@ -1,0 +1,19 @@
+{
+    "name": "andrejsstepanovs/cli",
+    "type": "library",
+    "description": "TEST",
+    "keywords": ["test"],
+    "license": "proprietary",
+    "require": {
+        "php": ">=5.5",
+        "phpunit/phpunit": "4.*",
+        "symfony/console": "3.0.*@dev",
+        "pimple/pimple": "3.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\": "tests/unit/"
+        }
+    }
+}
